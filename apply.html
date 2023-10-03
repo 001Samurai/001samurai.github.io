@@ -1,609 +1,149 @@
 <!DOCTYPE html>
 <html lang="en">
-
-  <head>
-
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="Template Mo">
-    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
-
-    <title>Team HK4L - List of Events/programs</title>
-
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet"> 
-    <!-- Additional fonts for this template -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Subrayada:wght@700&family=Playfair+Display:ital,wght@1,900&family=Poppins:ital,wght@1,300&family=Roboto+Slab:wght@500&display=swap" rel="stylesheet">
-
-
-    <!-- Additional CSS Files -->
-    <link rel="stylesheet" href="assets/css/fontawesome.css">
-    <link rel="stylesheet" href="assets/css/bootstrap-icons.css">
-    <link rel="stylesheet" href="assets/css/templatemo-edu-meeting.css">
-    <link rel="stylesheet" href="assets/css/owl.css">
-    <link rel="stylesheet" href="assets/css/lightbox.css">
-<!--
-
-TemplateMo 569 Edu Meeting
-
-https://templatemo.com/tm-569-edu-meeting
-
--->
-  </head>
-
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Application - Team HK CBO</title>
+  <link href="https://fonts.googleapis.com/css?family=Karla:400,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.materialdesignicons.com/4.8.95/css/materialdesignicons.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/bd-wizard.css">
+</head>
 <body>
-
-   
-
-  <!-- Sub Header -->
-  <div class="sub-header">
+  <main class="my-5">
     <div class="container">
-      <div class="row">
-        <div class="col-lg-8 col-sm-8">
-          <div class="left-content">
-            <p>Welcome to <em>Team HK4L CBO </em> official website.</p>
+      <div id="wizard">
+        <h3>
+          <div class="media">
+            <div class="bd-wizard-step-icon"><i class="mdi mdi-account-outline"></i></div>
+            <div class="media-body">
+              <div class="bd-wizard-step-title">Personal Details</div>
+              <div class="bd-wizard-step-subtitle">Step 1</div>
+            </div>
           </div>
-        </div>
-        <div class="col-lg-4 col-sm-4">
-          <div class="right-icons">
-            <ul>
-              <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-              <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-              <li><a href="#"><i class="fa fa-behance"></i></a></li>
-              <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-            </ul>
+        </h3>
+        <section>
+          <div class="content-wrapper">
+            <h4 class="section-heading">Enter your Personal details </h4>
+            <div class="row">
+              <div class="form-group col-md-6">
+                <label for="firstName" class="sr-only">First Name</label>
+                <input type="text" name="firstName" id="firstName" class="form-control" placeholder="First Name">
+              </div>
+              <div class="form-group col-md-6">
+                <label for="lastName" class="sr-only">Last Name</label>
+                <input type="text" name="lastName" id="lastName" class="form-control" placeholder="Last Name">
+              </div>
+            </div>
+            <div class="row">
+                <div class="form-group col-md-6">
+                  <label for="dob" class="sr-only">Date of Birth</label>
+                  <input type="date" name="dob" id="dob" class="form-control" placeholder="Date of Birth">
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="gender" class="sr-only">Gender</label>
+                  <select name="gender" id="gender" class="form-control" placeholder="Gender">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                </select>
+                </div>    
+              </div>
+            <div class="row">
+              <div class="form-group col-md-6">
+                <label for="phoneNumber" class="sr-only">Phone Number</label>
+                <input type="text" name="phoneNumber" id="phoneNumber" class="form-control" placeholder="Phone Number">
+              </div>
+              <div class="form-group col-md-6">
+                <label for="emailAddress" class="sr-only">Email Address</label>
+                <input type="email" name="emailAddress" id="emailAddress" class="form-control" placeholder="Email Address">
+              </div>
+            </div>
           </div>
-        </div>
+        </section>
+        <h3>
+          <div class="media">
+            <div class="bd-wizard-step-icon"><i class="mdi mdi-bank"></i></div>
+            <div class="media-body">
+              <div class="bd-wizard-step-title">Employ Details</div>
+              <div class="bd-wizard-step-subtitle">Step 2</div>
+            </div>
+          </div>
+        </h3>
+        <section>
+          <div class="content-wrapper">
+            <h4 class="section-heading">Enter your Employment details </h4>
+            <div class="row">
+              <div class="form-group col-md-6">
+                <label for="designation" class="sr-only">Designation</label>
+                <input type="text" name="designation" id="designation" class="form-control" placeholder="Designation">
+              </div>
+              <div class="form-group col-md-6">
+                <label for="department" class="sr-only">Department</label>
+                <input type="text" name="department" id="department" class="form-control" placeholder="Department">
+              </div>
+            </div>
+            <div class="row">
+              <div class="form-group col-md-6">
+                <label for="employeeNumber" class="sr-only">Employee Number</label>
+                <input type="text" name="employeeNumber" id="employeeNumber" class="form-control" placeholder="Employee Number">
+              </div>
+              <div class="form-group col-md-6">
+                <label for="workEmailAddress" class="sr-only">Work Email Address</label>
+                <input type="email" name="workEmailAddress" id="workEmailAddress" class="form-control" placeholder="Work Email Address">
+              </div>
+            </div>
+          </div>
+        </section>
+        <h3>
+          <div class="media">
+            <div class="bd-wizard-step-icon"><i class="mdi mdi-account-check-outline"></i></div>
+            <div class="media-body">
+              <div class="bd-wizard-step-title">Review </div>
+              <div class="bd-wizard-step-subtitle">Step 3</div>
+            </div>
+          </div>
+        </h3>
+        <section>
+          <div class="content-wrapper">
+          <h4 class="section-heading mb-5">Review your Details</h4>
+          <h6 class="font-weight-bold">Personal Details</h6>
+          <p class="mb-4"><span id="enteredFirstName">Cha</span> <span id="enteredLastName">Ji-Hun C</span> <br>
+            Phone: <span id="enteredPhoneNumber">+230-582-6609</span> <br>
+            Email: <span id="enteredEmailAddress">willms_abby@gmail.com</span></p>
+          <h6 class="font-weight-bold">Employment Details</h6>
+          <p class="mb-0"><span id="enteredDesignation">Junior Developer</span> - <span id="enteredDepartment">UI Development</span> <br>
+            Phone: <span id="enteredEmployeeNumber">JDUI36849</span> <br>
+            Email: <span id="enteredWorkEmailAddress">willms_abby@company.com</span></p>
+          </div>
+        </section>
+        <h3>
+          <div class="media">
+            <div class="bd-wizard-step-icon"><i class="mdi mdi-emoticon-outline"></i></div>
+            <div class="media-body">
+              <div class="bd-wizard-step-title">Submit</div>
+              <div class="bd-wizard-step-subtitle">Step 4</div>
+            </div>
+          </div>
+        </h3>
+        <section>
+          <div class="content-wrapper">
+            <h4 class="section-heading mb-5">Accept agreement and Submit</h4>
+            <div class="form-check">
+              <label class="form-check-label">
+                <input type="checkbox" class="form-check-input" name="" id="" value="checkedValue" checked>
+                I hereby declare that I had read all the <a href="#!">terms and conditions</a>  and all the details provided my me in this form are true.
+              </label>
+            </div>
+          </div>  
+        </section>
       </div>
     </div>
-  </div>
-
-   <!-- ***** Header Area Start ***** -->
-   <header class="header-area header-sticky">
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <nav class="main-nav">
-                    <!-- ***** Logo Start ***** -->
-                    <a class="logo" href="index.html">
-                      <i class="bi bi-star"></i>
-                      <span>HK4L</span>
-                    </a>
-
-                    <!-- ***** Logo End ***** -->
-                    <!-- ***** Menu Start ***** -->
-                    <ul class="nav">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="about.html">About Us</a></li>
-                        <li><a href="events.html">Events</a></li>
-                        <li class="has-sub">
-                            <a href="products.html">Products</a>
-                            <ul class="sub-menu">
-                                <li class="scroll-to-section"><a href="products.html#membership">Membership</a></li>
-                                <li class="scroll-to-section"><a href="products.html#merchandise">Merchandise</a></li>
-                            </ul>
-                        </li>
-                        <li class="has-sub">
-                            <a href="blog.html">Blog</a>
-                            <ul class="sub-menu">
-                                <li class="scroll-to-section"><a href="#member-spotlights">Member Spotlights</a></li>
-                                <li class="scroll-to-section"><a href="#industry-insights">Industry Insights</a></li>
-                            </ul>
-                        </li> 
-                        <li><a href="docs.html">Docs</a></li>
-                        <li><a href="contact.html">Contact Us</a></li>
-                        <!--
-                          <li class="main-button-red"><a href="#">Sign In</a></li>
-                        <li class="main-button-yellow"><a href="#">Sign Up</a></li>
-                        -->
-                        
-                    </ul>
-
-     
-                    <a class='menu-trigger'>
-                        <span>Menu</span>
-                    </a>
-                    <!-- ***** Menu End ***** -->
-                </nav>
-                
-            </div>
-        </div>
-    </div>
-</header>
-<!-- ***** Header Area End ***** -->
-
-   <section class="heading-page header-text" id="top">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12">
-          <h6>Here are our upcoming events</h6>
-          <h2>Upcoming Events</h2>
-        </div>
-      </div>
-    </div>
-  </section> 
-
-  
-
-  <section class=" section-padding" id="registration-section">
-
-    <div class="col-12 section-heading">
-        <h2 class="text-dark text-center fs-2 mb-4">Register Here</h2>
-      </div>
-
-    <div class="container">
-        <div class="card">
-            <div class="form">
-                <div class="left-side">
-                    <div class="left-heading">
-                        <h3>HK4L</h3>
-                    </div>
-                    <div class="steps-content">
-                        <h3>Step <span class="step-number">1</span></h3>
-                        <p class="step-number-content active">Enter your personal information to get closer to companies.</p>
-                        <p class="step-number-content d-none">Get to know better by adding your diploma,certificate and education life.</p>
-                        <p class="step-number-content d-none">Help companies get to know you better by telling then about your past experiences.</p>
-                        <p class="step-number-content d-none">Add your profile piccture and let companies find youy fast.</p>
-                    </div>
-                    <ul class="progress-bar">
-                        <li class="active">Personal Information</li>
-                        <li>Education</li>
-                        <li>Work Experience</li>
-                        <li>User Photo</li>
-                    </ul>
-                    
-    
-                    
-                </div>
-                <div class="right-side">
-                    <div class="main active">
-                        <small><i class="bi bi-star"></i></small>
-                        <div class="text">
-                            <h2>Your Personal Information</h2>
-                            <p>Enter your personal information to get closer to copanies.</p>
-                        </div>
-                        <div class="input-text">
-                            <div class="input-div">
-                                
-                                <input type="text"placeholder="First Name" name="firstName" required require id="user_name">
-                               
-                            </div>
-                            <div class="input-div"> 
-                                <input type="text"placeholder="Last Name" name="lastName" required require>
-                                
-                            </div>
-                        </div>
-                        <div class="input-text">
-                            <div class="input-div">
-                                <input type="tel" placeholder="Phone Number" name="phoneNumber" required require>
-                                
-                            </div>
-                            <div class="input-div">
-                                <input type="email" placeholder="E-mail Address" name="emailAddress" required require>
-                                
-                            </div>
-                        </div>
-                        <div class="input-text">
-                            <div class="input-div">
-                                <select>
-                                    <option>Gender</option>
-                                    <option>Male</option>
-                                    <option>Female</option>
-                                    
-                          
-                                </select>
-                            
-                            </div>
-                            <div class="input-div">
-                                
-                                <label for="dob">Date of Birth:</label>
-                                <input type="date" id="dob" name="dob" required>
-                            </div>
-                        </div>
-                        <div class="buttons">
-                            <button class="next_button">Next Step</button>
-                        </div>
-                    </div>
-                    <div class="main">
-                        <small><i class="fa fa-smile-o"></i></small>
-                        <div class="text">
-                            <h2>Education</h2>
-                            <p>Inform companies about your education life.</p>
-                        </div>
-                        <div class="input-text">
-                            <div class="input-div">
-                                <input type="text" required require>
-                                <span>School Name</span>
-                            </div>
-                            <div class="input-div"> 
-                                <input type="text" required>
-                                <span>Board Name</span>
-                            </div>
-                        </div>
-                        <div class="input-text">
-                            <div class="input-div">
-                                <input type="text" required require>
-                                <span>College/University name</span>
-                            </div>
-                        </div>
-                        <div class="input-text">
-                            <div class="input-div">
-                                <select>
-                                    <option>Select Course</option>
-                                    <option>BCA</option>
-                                    <option>B-TECH</option>
-                                    <option>BA</option>
-                                    <option>B-COM</option>
-                                    <option>B-SC</option>
-                                    <option>MBA</option>
-                                    <option>MCA</option>
-                                    <option>M-COM</option>
-                                    <option>M-TECH</option>
-                                </select>
-                            </div>
-                        </div>
-                        <div class="buttons button_space">
-                            <button class="back_button">Back</button>
-                            <button class="next_button">Next Step</button>
-                        </div>
-                    </div>
-                    <div class="main">
-                        <small><i class="fa fa-smile-o"></i></small>
-                        <div class="text">
-                            <h2>Work Experiences</h2>
-                            <p>Can you talk about your past work experience?</p>
-                        </div>
-                        <div class="input-text">
-                            <div class="input-div">
-                                <input type="text" required require>
-                                <span>Experience 1</span>
-                            </div>
-                            <div class="input-div"> 
-                                <input type="text" required require>
-                                <span>Position</span>
-                            </div>
-                        </div>
-                        <div class="input-text">
-                            <div class="input-div">
-                                <input type="text" required>
-                                <span>Experience 2</span>
-                            </div>
-                            <div class="input-div">
-                                <input type="text" required>
-                                <span>Position</span>
-                            </div>
-                        </div>
-                        <div class="input-text">
-                            <div class="input-div">
-                                <input type="text" required>
-                                <span>Experience 3</span>
-                            </div>
-                            <div class="input-div">
-                                <input type="text" required>
-                                <span>Position</span>
-                            </div>
-                        </div>
-                        <div class="buttons button_space">
-                            <button class="back_button">Back</button>
-                            <button class="next_button">Next Step</button>
-                        </div>
-                    </div>
-                    
-                    
-                    
-                    <div class="main">
-                        <small><i class="fa fa-smile-o"></i></small>
-                        <div class="text">
-                            <h2>User Photo</h2>
-                            <p>Upload your profile picture and share yourself.</p>
-                        </div>
-                        <div class="user_card">
-                            <span></span>
-                            <div class="circle">
-                                <span><img src="https://i.imgur.com/hnwphgM.jpg"></span>
-                                
-                            </div>
-                            <div class="social">
-                                <span><i class="fa fa-share-alt"></i></span>
-                                <span><i class="fa fa-heart"></i></span>
-                                
-                            </div>
-                            <div class="user_name">
-                                <h3>Peter Hawkins</h3>
-                                <div class="detail">
-                                    <p><a href="#">Izmar,Turkey</a>Hiring</p>
-                                    <p>17 last day . 94Apply</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="buttons button_space">
-                            <button class="back_button">Back</button>
-                            <button class="submit_button">Submit</button>
-                        </div>
-                    </div>
-                     <div class="main">
-                         <svg class="checkmark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52">
-                             <circle class="checkmark__circle" cx="26" cy="26" r="25" fill="none"/>
-                            <path class="checkmark__check" fill="none" d="M14.1 27.2l7.1 7.2 16.7-16.8"/>
-                        </svg>
-                         
-                        <div class="text congrats">
-                            <h2>Congratulations!</h2>
-                            <p>Thanks Mr./Mrs. <span class="shown_name"></span> your information have been submitted successfully for the future reference we will contact you soon.</p>
-                        </div>
-                    </div>
-                    
-                
-                  
-    
-                
-    
-                </div>
-            </div>
-        </div>
-    </div>
-
-  </section>
-
-  
-<footer class="site-footer footer-padding">
-    <div class="container">
-        <div class="row justify-space-between">
-  
-            <!-- Logo and Social Icons -->
-            <div class="col-lg-3 col-12 ">
-                <div class="d-flex flex-column align-items-center">
-                    <a class="navbar-brand logo mb-2" href="index.html">
-                        <i class="bi bi-star-fill"></i>
-                        <span>HK4L</span>
-                    </a>
-                    <p class="mb-2">Men On A Mission</p>
-                    <div class="social-icons fs-4">
-                        <ul class="list-inline">
-                            <li class="list-inline-item"><a href="#"><i class="fa fa-facebook"></i></a></li>
-                            <li class="list-inline-item"><a href="#"><i class="fa fa-twitter"></i></a></li>
-                            <li class="list-inline-item"><a href="#"><i class="fa fa-youtube"></i></a></li>
-                            <li class="list-inline-item"><a href="#"><i class="fa fa-instagram"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-  
-            <!-- Resource Links -->
-            <div class="col-lg-3 col-md-4 col-6">
-                <h6 class="site-footer-title mb-3">Resources</h6>
-                <ul class="site-footer-links">
-                    <li class="site-footer-link-item"><a href="index.html" class="site-footer-link">Home</a></li>
-                    <li class="site-footer-link-item"><a href="blog.html" class="site-footer-link">Blog</a></li>
-                    <li class="site-footer-link-item"><a href="docs.html" class="site-footer-link">Documentation</a></li>
-                    <li class="site-footer-link-item"><a href="events.html" class="site-footer-link">Events</a></li>
-                    <li class="site-footer-link-item"><a href="products.html" class="site-footer-link">Merchandise</a></li>
-                </ul>
-            </div>
-  
-  
-            <!-- Organization Links -->
-            <div class="col-lg-3 col-md-4 col-6">
-                <h6 class="site-footer-title mb-3">Organization</h6>
-                <ul class="site-footer-links">
-                    <li class="site-footer-link-item"><a href="about.html" class="site-footer-link">About us</a></li>
-                    <li class="site-footer-link-item"><a href="docs.html" class="site-footer-link">Privacy Policy</a></li>
-                    <li class="site-footer-link-item"><a href="docs.html" class="site-footer-link">Terms and conditions</a></li>
-                    <li class="site-footer-link-item"><a href="docs.html" class="site-footer-link">Licenses</a></li>
-                </ul>
-            </div>
-  
-            <!-- Contact Info -->
-            <div class="col-lg-3 col-md-4 col-6 mb-4 mb-lg-0">
-                <h6 class="site-footer-title mb-3">Contact Info</h6>
-                <p class="text-white mb-1">
-                    <a href="tel: +254774409735" class="site-footer-link">
-                        +254774409735
-                    </a>
-                </p>
-                <p class="text-white">
-                    <a href="mailto:info@teamhkcbo.co.ke" class="site-footer-link">
-                        info@teamhkcbo.co.ke
-                    </a>
-                </p>
-                <p class="text-white">
-                    <a href="https://www.google.com/maps?q=123+Main+Street%2C+City%2C+Country" class="site-footer-link">
-                        Kongowea, Nyali, Mombasa, Kenya.
-                    </a>
-                </p>
-            </div>
-  
-            
-        </div>
-  
-        <!-- Copyright -->
-        <div class="row mt-5">
-            <div class="col-12 text-center">
-                <p class="text-dark">&copy; 2023 Team HK CBO. All rights reserved.</p>
-            </div>
-        </div>
-    </div>
-  </footer>
-
-<!--
-    
--->
- 
-    <!-- Scripts -->
-    <!-- Bootstrap core JavaScript -->
-      <script src="vendor/jquery/jquery.min.js"></script>
-      <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  
-      <script src="assets/js/isotope.min.js"></script>
-      <script src="assets/js/timeline-sec-script.js"></script>
-      <script src="assets/js/owl-carousel.js"></script>
-      <script src="assets/js/lightbox.js"></script>
-      <script src="assets/js/tabs.js"></script>
-      <script src="assets/js/video.js"></script>
-      <script src="assets/js/slick-slider.js"></script>
-      <script src="assets/js/custom.js"></script>
-      <script src="assets/js/bootstrap.bundle.min.js"></script>
-      <script src="assets/js/click-scroll.js"></script>
-      <script>
-          //according to loftblog tut
-          $('.nav li:first').addClass('active');
-  
-          var showSection = function showSection(section, isAnimate) {
-            var
-            direction = section.replace(/#/, ''),
-            reqSection = $('.section').filter('[data-section="' + direction + '"]'),
-            reqSectionPos = reqSection.offset().top - 0;
-  
-            if (isAnimate) {
-              $('body, html').animate({
-                scrollTop: reqSectionPos },
-              800);
-            } else {
-              $('body, html').scrollTop(reqSectionPos);
-            }
-  
-          };
-  
-          var checkSection = function checkSection() {
-            $('.section').each(function () {
-              var
-              $this = $(this),
-              topEdge = $this.offset().top - 80,
-              bottomEdge = topEdge + $this.height(),
-              wScroll = $(window).scrollTop();
-              if (topEdge < wScroll && bottomEdge > wScroll) {
-                var
-                currentId = $this.data('section'),
-                reqLink = $('a').filter('[href*=\\#' + currentId + ']');
-                reqLink.closest('li').addClass('active').
-                siblings().removeClass('active');
-              }
-            });
-          };
-  
-          $('.main-menu, .responsive-menu, .scroll-to-section').on('click', 'a', function (e) {
-            e.preventDefault();
-            showSection($(this).attr('href'), true);
-          });
-  
-          $(window).scroll(function () {
-            checkSection();
-          });
-
-          <!--- application form---->
-          
-            var next_click=document.querySelectorAll(".next_button");
-            var main_form=document.querySelectorAll(".main");
-            var step_list = document.querySelectorAll(".progress-bar li");
-            var num = document.querySelector(".step-number");
-            let formnumber=0;
-
-            next_click.forEach(function(next_click_form){
-                next_click_form.addEventListener('click',function(){
-                    if(!validateform()){
-                        return false
-                    }
-                formnumber++;
-                updateform();
-                progress_forward();
-                contentchange();
-                });
-            }); 
-
-            var back_click=document.querySelectorAll(".back_button");
-            back_click.forEach(function(back_click_form){
-                back_click_form.addEventListener('click',function(){
-                formnumber--;
-                updateform();
-                progress_backward();
-                contentchange();
-                });
-            });
-
-            var username=document.querySelector("#user_name");
-            var shownname=document.querySelector(".shown_name");
-            
-
-            var submit_click=document.querySelectorAll(".submit_button");
-            submit_click.forEach(function(submit_click_form){
-                submit_click_form.addEventListener('click',function(){
-                shownname.innerHTML= username.value;
-                formnumber++;
-                updateform(); 
-                });
-            });
-
-            var heart=document.querySelector(".fa-heart");
-            heart.addEventListener('click',function(){
-            heart.classList.toggle('heart');
-            });
-
-
-            var share=document.querySelector(".fa-share-alt");
-            share.addEventListener('click',function(){
-            share.classList.toggle('share');
-            });
-
-            
-
-            function updateform(){
-                main_form.forEach(function(mainform_number){
-                    mainform_number.classList.remove('active');
-                })
-                main_form[formnumber].classList.add('active');
-            } 
-            
-            function progress_forward(){
-                // step_list.forEach(list => {
-                    
-                //     list.classList.remove('active');
-                    
-                // }); 
-                
-                
-                num.innerHTML = formnumber+1;
-                step_list[formnumber].classList.add('active');
-            }  
-
-            function progress_backward(){
-                var form_num = formnumber+1;
-                step_list[form_num].classList.remove('active');
-                num.innerHTML = form_num;
-            } 
-            
-            var step_num_content=document.querySelectorAll(".step-number-content");
-
-            function contentchange(){
-                step_num_content.forEach(function(content){
-                    content.classList.remove('active'); 
-                    content.classList.add('d-none');
-                }); 
-                step_num_content[formnumber].classList.add('active');
-            } 
-            
-            
-            function validateform(){
-                validate=true;
-                var validate_inputs=document.querySelectorAll(".main.active input");
-                validate_inputs.forEach(function(vaildate_input){
-                    vaildate_input.classList.remove('warning');
-                    if(vaildate_input.hasAttribute('require')){
-                        if(vaildate_input.value.length==0){
-                            validate=false;
-                            vaildate_input.classList.add('warning');
-                        }
-                    }
-                });
-                return validate;
-                
-            }
-
-
-      </script>
-  </body>
-  
-  
-  </html>
+  </main>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <script src="assets/js/jquery.steps.min.js"></script>
+  <script src="assets/js/bd-wizard.js"></script>
+</body>
+</html>
