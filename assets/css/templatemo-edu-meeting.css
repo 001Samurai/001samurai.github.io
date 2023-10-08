@@ -2839,6 +2839,67 @@ section.heading-page .text-above-image {
   padding: 20px; /* Add padding to the text for spacing */
 }
 
+/* Style for the search bar container */
+.search-bar {
+  margin-top: 20px; /* Adjust the margin as needed */
+  text-align: center; /* Center the search bar within the column */
+}
+
+/* Style for the search input */
+#search-input {
+  width: 70%; /* Adjust the width as needed */
+  padding: 10px; /* Adjust the padding as needed */
+  border: 1px solid #ccc; /* Add a border */
+  border-radius: 4px; /* Add border radius for rounded corners */
+}
+
+/* Style for the search button */
+#search-button {
+  padding: 10px 20px; /* Adjust the padding as needed */
+  background-color: #007bff; /* Change the background color */
+  color: #fff; /* Change the text color */
+  border: none;
+  border-radius: 4px; /* Add border radius for rounded corners */
+  cursor: pointer;
+}
+
+/* Style for the search button on hover (optional) */
+#search-button:hover {
+  background-color: #0056b3; /* Change the background color on hover */
+}
+
+
+/* Style for the Preview button */
+.preview-button {
+  display: inline-block;
+  padding: 7px 15px;
+  background-color: #a12c2f; /* Your primary color */
+  color: #fff; /* Text color */
+  text-decoration: none;
+  border-radius: 25px;
+  transition: background-color 0.3s ease;
+}
+
+.preview-button:hover {
+  background-color: #f5a425; /* Your secondary color on hover */
+}
+
+/* Style for the Download button */
+.download-button {
+  display: inline-block;
+  padding: 7px 15px;
+  background-color: #f5a425; /* Your secondary color */
+  color: #fff; /* Text color */
+  text-decoration: none;
+  border-radius: 25px;
+  transition: background-color 0.3s ease;
+  margin-left: 25px; /* Add some space between the buttons */
+}
+
+.download-button:hover {
+  background-color: #a12c2f; /* Your primary color on hover */
+}
+
 /*
 ---------------------------------------------
 upcoming meetings page
@@ -2854,6 +2915,17 @@ section.meetings-page {
   padding-top: 140px;
   padding-bottom: 0px;
 }
+
+section#doc-list {
+  background-image: url(../images/meetings-bg.jpg);
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 40px;
+  padding-bottom: 0px;
+}
+
 
 section.meetings-page .filters {
   text-align: center;
@@ -2871,7 +2943,7 @@ section.meetings-page .filters li {
   text-transform: uppercase;
   transition: all .3s;
   cursor: pointer;
-  margin: 0px 3px;
+  margin: 3px 3px;
 }
 
 section.meetings-page .filters ul li.active,
