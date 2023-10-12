@@ -1242,23 +1242,23 @@ section#membership {
 }
 
 .pp-heading h2 {
-  line-height: 40px;
-  margin-bottom: 20px; 
-  padding-bottom: 20px;
+  line-height: 30px;
+  margin-bottom: 10px; 
+  padding-bottom: 10px;
   font-family: 'Montserrat', serif;
-  font-size: 30px;
+  font-size: 24px;
   font-weight: 600;
   text-transform: uppercase;
   color: #fff;
 }
 
 .pp-heading h4 {
-  line-height: 40px;
+  line-height: 20px;
   margin-top: 20px;
-  margin-bottom: 40px; 
-  padding-bottom: 40px;
+  margin-bottom: 20px; 
+  padding-bottom: 20px;
   font-family: 'Montserrat', sans-serif;
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 500;
   color: #fff;
 }
@@ -2228,86 +2228,6 @@ animation: stroke 0.3s cubic-bezier(0.65, 0, 0.45, 1) 0.8s forwards;
   }
 }
 
-/* Other CSS styles for the form remain unchanged */
-
-/* Add more CSS styles as needed for your specific form fields */
-
-
-/*
-section.apply-now .item {
-  background-color: rgba(250,250,250,0.15);
-  padding: 40px;
-  margin-bottom: 30px;
-}
-
-section.apply-now .item h3 {
-  color: #fff;
-  text-transform: uppercase;
-  font-size: 24px;
-  font-weight: 700;
-  margin-bottom: 20px;
-}
-
-section.apply-now .item p {
-  color: #fff;
-  margin-bottom: 20px;
-}
-
-.accordions {
-  border-radius: 20px;
-  padding: 40px;
-  background-color: #fff;
-  margin-left: 45px;
-}
-.accordions .accordion {
-  border-bottom: 1px solid #eee;
-}
-.accordions .last-accordion {
-  border-bottom: none;
-}
-.accordion-head {
-  padding: 20px;  
-  font-size: 18px;
-  font-weight: 700;
-  color: #1f272b;
-  cursor: pointer;
-  transition: color 200ms ease-in-out;
-  border-bottom: 1px solid #fff;
-}
-@media screen and (min-width: 768px) {
-  .accordion-head {
-    padding: 1rem;
-    font-size: 1.2rem;
-  }
-}
-.accordion-head .icon {
-  float: right;
-  transition: transform 200ms ease-in-out;
-}
-.accordion-head.is-open {
-  color: #f5a425;
-  border-bottom: none;
-}
-.accordion-head.is-open .icon {
-  transform: rotate(45deg);
-}
-.accordion-body {
-  overflow: hidden;
-  height: 0;
-  transition: height 300ms ease-in-out;
-  border-bottom: 1px solid #fff;
-}
-.accordion-body > .content {
-  padding: 20px;
-  padding-top: 0;
-}
-
-
-/* 
----------------------------------------------
-courses
---------------------------------------------- 
-*/
 .our-courses .section-heading {
   text-align: center;
 }
@@ -2912,8 +2832,12 @@ section.meetings-page {
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 40px;
+  padding-top: 140px;
   padding-bottom: 0px;
+}
+
+section#about {
+  padding-top: 30px;
 }
 
 section#doc-list {
