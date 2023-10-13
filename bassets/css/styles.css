@@ -647,7 +647,7 @@ section.heading-page::before {
 /* Add your background image styles */
 section.heading-page::after {
   content: "";
-  background-image: url(/assets/images/heading-bg.jpg);
+  background-image: url(/assets/images/art-is-change.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
