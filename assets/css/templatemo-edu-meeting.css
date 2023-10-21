@@ -861,7 +861,7 @@ section.services {
 }
 
 .services .item {
-  background-image: url(..https://teamhk4lcbo-297904191.imgix.net/service-item-bg.jpg);
+  background-image: url(https://teamhk4lcbo-297904191.imgix.net/service-item-bg.jpg?auto=format);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -1195,7 +1195,7 @@ section#contact-form {
 
 section#membership {
 
-  background-image: url(https://teamhk4lcbo-297904191.imgix.net/meetings-bg.jpg);
+  background-image: url(https://teamhk4lcbo-297904191.imgix.net/meetings-bg.jpg?auto=format);
   background-position: center center;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -1636,7 +1636,7 @@ upcoming meetings
 
 section#products {
 
-  background-image: url(../images/meetings-bg.jpg);
+  background-image: url(https://teamhk4lcbo-297904191.imgix.net/meetings-bg.jpg?auto=format);
   background-position: center center;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -1647,7 +1647,7 @@ section#products {
 
 
 section.upcoming-meetings {
-  background-image: url(../images/jon-tyson-QL0FAxaq2z0-unsplash.jpg);
+  background-image: url(https://teamhk4lcbo-297904191.imgix.net/jon-tyson-QL0FAxaq2z0-unsplash.jpg?auto=format);
   background-position: center center;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -1783,7 +1783,7 @@ apply now
   
 
 section.apply-page {
-  background-image: url(../images/meetings-bg.jpg);
+  background-image: url(https://teamhk4lcbo-297904191.imgix.net/meetings-bg.jpg?auto=format);
   background-position: center center;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -2237,7 +2237,7 @@ animation: stroke 0.3s cubic-bezier(0.65, 0, 0.45, 1) 0.8s forwards;
 }
 
 section.our-courses {
-  background-image: url(../images/meetings-bg.jpg);
+  background-image: url(https://teamhk4lcbo-297904191.imgix.net/meetings-bg.jpg?auto=format);
   background-position: center center;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -2386,7 +2386,7 @@ our facts
 */
 
 section.our-facts {
-  background-image: url(../images/facts-bg.jpg);
+  background-image: url(https://teamhk4lcbo-297904191.imgix.net/facts-bg.jpg?auto=format);
   background-position: center center;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -2436,7 +2436,7 @@ section.our-facts h2 {
 section.our-facts .video {
   text-align: center;
   margin-left: 70px;
-  background-image: url(../images/video-item-bg.jpg);
+  background-image: url(https://teamhk4lcbo-297904191.imgix.net/video-item-bg.jpg?auto=format);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -2516,7 +2516,7 @@ contact us
 */
 
 section.contact-us {
-  background-image: url(../images/meetings-bg.jpg);
+  background-image: url(https://teamhk4lcbo-297904191.imgix.net/meetings-bg.jpg?auto=format);
   background-position: center center;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -2719,7 +2719,7 @@ section.heading-page::before {
 /* Add your background image styles */
 section.heading-page::after {
   content: "";
-  background-image: url(../images/heading-bg.jpg);
+  background-image: url(https://teamhk4lcbo-297904191.imgix.net/heading-bg.jpg?auto=format);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -2827,7 +2827,7 @@ upcoming meetings page
 */
 
 section.meetings-page {
-  background-image: url(../images/meetings-bg.jpg);
+  background-image: url(https://teamhk4lcbo-297904191.imgix.net/meetings-bg.jpg?auto=format);
   background-position: center center;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -2841,7 +2841,7 @@ section#about {
 }
 
 section#doc-list {
-  background-image: url(../images/meetings-bg.jpg);
+  background-image: url(https://teamhk4lcbo-297904191.imgix.net/meetings-bg.jpg?auto=format);
   background-position: center center;
   background-attachment: fixed;
   background-repeat: no-repeat;
