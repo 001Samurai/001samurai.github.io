@@ -474,7 +474,7 @@ strong {
 }HERO              
 -----------------------------------------*/
 .hero {
-  background-image: url("/images/pexels-felix-mittermeier-956999.jpg");
+  background-image: url("../images/pexels-felix-mittermeier-956999.jpg");
   background-size: cover;
   background-position: center;
   position: relative;
